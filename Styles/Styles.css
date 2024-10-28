@@ -6,3 +6,18 @@
     height: 200px;
     background-color: #D9D9D9;
 }
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.yellow{
+    background-color: yellow;
+    color: black;
+}
+
+.mustard{
+    background-color: hsl(60, 100%, 40%);
+    color: white;
+}

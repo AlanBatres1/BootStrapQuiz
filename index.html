@@ -20,20 +20,26 @@
             </div>
         </div>
     </div>
-    
     <div class="row">
-      <div class="col-3">
-        <a class="btn btn-primary disabled DivColor" role="button" aria-disabled="true">Active</a>
-      </div>
-      <div class="col-3">
-        <a href="">Longer Nav Link</a>
-      </div>
-      <div class="col-3">
-        <a href="Link">Link</a>
-      </div>
-      <div class="col-3">disabled</div>
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Much longer nav link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+
+    </div>
+  
     <div class="row">
-      <div class="col">
+      <div class="col d-flex justify-content-center">
         <div class="card mb-3" style="max-width: 600px;">
           <div class="row g-0">
             <div class="col-md-4">
@@ -52,6 +58,11 @@
     </div>
 
     <div class ="container DivColor">
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary red">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+      </div>
       <div class="row">
         <div class="col">
           <div class="card" style="width: 18rem;">
